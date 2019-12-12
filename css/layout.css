@@ -61,3 +61,12 @@ img {
 	height: auto;
 	max-width: 960px;
 	}
+	
+@media (max-width: 900px) {
+	#main {
+	    padding: 0;
+		}
+	#sidebar {
+		visibility: hidden;
+		}
+	}
