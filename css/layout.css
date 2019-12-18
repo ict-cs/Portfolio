@@ -62,7 +62,7 @@ img {
 	max-width: 960px;
 	}
 	
-@media (max-width: 800px) {
+@media (orientation: "portrait"), (max-width: 1000px) {
 	#main {
 	    padding: 0;
 		}
