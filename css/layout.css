@@ -62,7 +62,7 @@ img {
 	max-width: 960px;
 	}
 	
-@media (max-width: 1080px) {
+@media (max-width: 400px) {
 	#main {
 	    padding: 0;
 		}
