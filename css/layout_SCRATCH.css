@@ -64,7 +64,7 @@ img {
 	
 table {
 	width: 100%;
-	max-width: 800px;
+max-width: 1024px;
 }
 @media (max-width: 600px) {
 	#main {
@@ -74,21 +74,25 @@ table {
 		visibility: hidden;
 		}
 
-	/* 3
+	
 	thead tr {
 		display: none;
 	}
-	*/
 	
+	tr:nth-of-type(odd) {background: lightgray;}
 	
 	td {
 		display: block;
 		position: relative;
 		padding-left: 30%;
+		
 	}
 	
+	td:nth-of-type(1):before {content: "Name: "}
+td:nth-of-type(2):before {content: "Description: "}
+td:nth-of-type(3):before {content: "More Info: "}
+
 	
-	/*  1
 	td:before {
 		position: absolute;
 		top: 1px;
@@ -96,13 +100,8 @@ table {
 		padding-right: 20px;
 	}
 	
-	*/
-	 
-	/* 2 
-	td:nth-of-type(1):before {content: "Name: "}
-	td:nth-of-type(2):before {content: "Description: "}
-	td:nth-of-type(3):before {content: "More Info: "}
-	*/
+
+	
 	
 	/* 4
 	tr:nth-of-type(odd) {background: lightgray;}
